@@ -20,10 +20,10 @@ tag:
 	@git push origin "v$(version)"
 
 bump:
-	@bumpversion --commit --tag --current-version $(version) patch enumclasses/__init__.py --allow-dirty
+	@bumpversion --commit --current-version $(version) patch enumclasses/__init__.py --allow-dirty
 
 bump-minor:
-	@bumpversion --commit --tag --current-version $(version) minor enumclasses/__init__.py --allow-dirty
+	@bumpversion --commit --current-version $(version) minor enumclasses/__init__.py --allow-dirty
 
 clean:
 	@echo "$(OK_COLOR)==> Cleaning up files that are already in .gitignore...$(NO_COLOR)"

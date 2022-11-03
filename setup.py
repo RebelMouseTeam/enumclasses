@@ -3,7 +3,7 @@ import setuptools
 
 setuptools.setup(
     name='enumclasses',
-    version='1.1.6',
+    version='1.1.7',
     author='CordiS',
     author_email='cordis@rebelmouse.com',
     url='https://github.com/RebelMouseTeam/enumclasses',
